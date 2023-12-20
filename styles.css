@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap");
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 0px 60px;
+  background-color: #ffead9;
+  box-shadow: 0px 0px 10px 0px #ffead9;
+}
+header .header-data {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0px;
+}
+header .header-data nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-data nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin-right: 32px;
+}
+header .header-data nav ul li {
+  list-style-type: none;
+}
+header .header-data nav ul li a {
+  text-decoration: none;
+  color: #0d0d0d;
+  font-size: 22.51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.514px;
+}
+header .header-data nav button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 158px;
+  height: 49px;
+  background: #d62828;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+}
+header .header-data nav button img {
+  width: 24px;
+  height: 24px;
+}
+header .header-data nav button p {
+  font-size: 22.51px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+.hero-section {
+  position: relative;
+}
+.carousel-item {
+  width: 100%;
+  height: 80vh;
+}
+.carousel-item img {
+  width: 100%;
+}
+.shopnow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  height: 56px;
+  padding: 8px 28px;
+  background-color: #76f4ca;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.shopnow-btn .button-text{
+  font-size: 22.51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.514px;
+ color: #fff;
+}
+.design-btn {
+  width: 225px;
+  height: 56px;
+  border: 2px solid #76f4ca;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-top: -48px;
+}
+
+.hero-section .carousel-content {
+  max-width: 1440px;
+  position: absolute;
+  top: 270px;
+  margin-left: 72px;
+  transform: translateY(-50%);
+  text-align: left;
+  color: #fff; /* Text color */
+}
+.hero-section .carousel-content .heading {
+  width: 446px;
+  margin-bottom: 34px;
+}
+.hero-section .carousel-content .heading h1 {
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  color: #000;
+}
+.hero-section .carousel-content .heading h2 {
+  font-size: 22.51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.514px;
+  color: #000;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+#carouselExampleIndicators .carousel-indicators button {
+  width: 20px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+#carouselExampleIndicators .carousel-indicators button {
+  background: #003049;
+}
+.menu-icon {
+  display: none;
+}
+.hero-products{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0px;
+}
+.hero-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-product-heading{
+    width: 419px;
+    height: 335px;
+    padding: 79px 0px;
+    border-radius: 10px;
+}
+
+.hero-product-image{
+width: 297px;
+height: 238px;
+margin-top: -100px;
+}
+.hero-product-image img{
+    width: 100%;
+}
+.hero-product-heading h1{
+font-size: 22.51px;
+font-style: normal;
+font-weight: 500;
+line-height: 31.514px;
+color: #000;
+text-align: center;
+}
+.hero-product-heading h2{
+font-size: 16.89px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.335px;
+color: #000;
+text-align: center;
+}
+.product-categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
+    padding-bottom: 40px;
+
+}
+.product-in-trend{
+  background-color: #E2F5E0;
+  position: relative;
+
+}
+.trending-product{
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 72px;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+.trending-product-description{
+  width: 520px;
+}
+.trending-product-description h1{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #0d0d0d;
+}
+.trending-product-description h2{
+  font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 33.8px;
+color: #000;
+}
+.trending-product-description h3{
+  font-size: 16.89px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.335px;
+color: #000;
+}
+.trending-product-image{
+  width: 309px;
+  height: 509px;
+}
+.trending-product-image img{
+  width: 100%;
+}
+.trending-product-features{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 72px;
+  width: 400px;
+}
+
+.tp-feature{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.tp-feature h1{
+  font-size: 22.51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.514px;
+  color: #000;
+}
+.tp-feature h2{
+  font-size: 16.89px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.335px;
+  color: #000;
+}
+.upper-design-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.lower-design-image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.lower-design-image img{
+  width: 100%;
+}
+@media (min-width: 1440px) {
+  .carousel-item {
+    height: 725px;
+  }
+}
+@media (max-width: 1200px) {
+  .hero-section .carousel-content {
+    top: 200px;
+  }
+  .carousel-item {
+    height: 60vh;
+  }
+  .carousel-item .banner {
+    height: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .hero-section .carousel-content .heading {
+    width: 346px;
+    margin-bottom: 34px;
+  }
+  header .header-data nav {
+    display: none;
+  }
+  .menu-icon {
+    display: flex;
+  }
+  .menu-icon i{
+    font-size: 30px;
+    color: black;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    padding: 0px 20px;
+  }
+  .carousel-item {
+    height: 80vh;
+  }
+  .banner{
+    object-fit:none;
+    opacity: 0.8;
+  }
+  .hero-section .carousel-content {
+    margin-left: 30px;
+  }
+  .hero-section .carousel-content .heading {
+    width: 90%;
+    margin-bottom: 34px;
+  }
+  .shopnow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    padding: 8px;
+  }
+  .design-btn {
+    width: 160px;
+    height: 50px;
+    margin-left: 8px;
+    margin-top: -43px;
+  }
+  .shopnow-btn .btn-text {
+    font-size: 18.51px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.514px;
+  }
+  .hero-section .carousel-content .heading h1 {
+    font-size: 31px
+  }
+  .hero-section .carousel-content .heading h2 {
+    font-size: 18.51px
+  }
+.hero-product-heading{
+    width: 90%;
+    height: 300px;
+    padding: 30px 30px 0px 30px;
+}
+.hero-product-image{
+width: 197px;
+height: 138px;
+margin-top: -70px;
+}
+.product-categories{
+  width: 90%;
+}
+.trending-product{
+  padding: 50px 40px;
+}
+}
+@media (max-width:576px) {
+  .tp-feature{
+    flex-direction: column;
+    text-align: center;
+  }
+  .trending-product-features{
+    gap: 20px;
+  }
+}
